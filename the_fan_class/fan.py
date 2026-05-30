@@ -5,7 +5,7 @@ class Fan:
     FAST = 3
 
 # Construction
-def __init__(self, speed=SLOW, radius=5.0, color="blue", on=False):
+def __init__(self, speed=1, radius=5.0, color="blue", on=False):
         self.__speed = speed
         self.__radius = radius
         self.__color = color
