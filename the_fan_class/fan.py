@@ -36,3 +36,19 @@ def set_color(self, color):
 
 def set_on(self, on):
         self.__on = on
+
+# String representation
+def __str__(self):
+        if self.__on:
+            return (
+                f"Fan is ON\n"
+                f"Speed: {self.__speed}\n"
+                f"Radius: {self.__radius}\n"
+                f"Color: {self.__color}\n"
+            )
+
+        return (
+            f"Fan is OFF\n"
+            f"Radius: {self.__radius}\n"
+            f"Color: {self.__color}\n"
+        )
