@@ -10,3 +10,8 @@ print("\nAccelerating...")
 for count in range(5):
     car_1.accelerate()
     print(f"Current Speed: {car_1.get_speed()} mph")
+
+print("\nBraking...")
+for count in range(5):
+    car_1.brake()
+    print(f"Current Speed: {car_1.get_speed()} mph")
