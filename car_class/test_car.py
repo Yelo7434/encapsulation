@@ -5,3 +5,8 @@ car_1 = Car(2024, "Lamborghini")
 print("Car Information")
 print(f"Year Model: {car_1.get_year_model()}")
 print(f"Make: {car_1.get_make()}")
+
+print("\nAccelerating...")
+for count in range(5):
+    car_1.accelerate()
+    print(f"Current Speed: {car_1.get_speed()} mph")
