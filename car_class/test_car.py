@@ -1,6 +1,6 @@
-from test_car import Car
+from car import Car
 # Create a Car object
-car_1 = Car(2024, "Lamborghini")
+car_1 = Car(2025, "Tesla Model S")
 
 print("Car Information")
 print(f"Year Model: {car_1.get_year_model()}")
